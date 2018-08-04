@@ -15,8 +15,8 @@
 		8BB0B0F52113D94F0061F143 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0B0F42113D94F0061F143 /* ShadowView.swift */; };
 		8BB0B0F72113DD160061F143 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB0B0F62113DD160061F143 /* AuthService.swift */; };
 		8BF94DF3210BFCF2001E839F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF94DF2210BFCF2001E839F /* AppDelegate.swift */; };
-		8BF94DF5210BFCF2001E839F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF94DF4210BFCF2001E839F /* FirstViewController.swift */; };
-		8BF94DF7210BFCF2001E839F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF94DF6210BFCF2001E839F /* SecondViewController.swift */; };
+		8BF94DF5210BFCF2001E839F /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF94DF4210BFCF2001E839F /* FeedVC.swift */; };
+		8BF94DF7210BFCF2001E839F /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF94DF6210BFCF2001E839F /* GroupsVC.swift */; };
 		8BF94DFA210BFCF2001E839F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF94DF8210BFCF2001E839F /* Main.storyboard */; };
 		8BF94DFC210BFCF4001E839F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF94DFB210BFCF4001E839F /* Assets.xcassets */; };
 		8BF94DFF210BFCF4001E839F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF94DFD210BFCF4001E839F /* LaunchScreen.storyboard */; };
@@ -34,8 +34,8 @@
 		8BB0B0F62113DD160061F143 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8BF94DEF210BFCF2001E839F /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF94DF2210BFCF2001E839F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BF94DF4210BFCF2001E839F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8BF94DF6210BFCF2001E839F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8BF94DF4210BFCF2001E839F /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		8BF94DF6210BFCF2001E839F /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		8BF94DF9210BFCF2001E839F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF94DFB210BFCF4001E839F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF94DFE210BFCF4001E839F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 		8BF94E06210BFD37001E839F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8BF94DF4210BFCF2001E839F /* FirstViewController.swift */,
-				8BF94DF6210BFCF2001E839F /* SecondViewController.swift */,
+				8BF94DF4210BFCF2001E839F /* FeedVC.swift */,
+				8BF94DF6210BFCF2001E839F /* GroupsVC.swift */,
 				8BB0B0EE2113D34C0061F143 /* AuthVC.swift */,
 				8BB0B0F02113D3850061F143 /* LoginVC.swift */,
 			);
@@ -272,12 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB0B0EF2113D34C0061F143 /* AuthVC.swift in Sources */,
-				8BF94DF7210BFCF2001E839F /* SecondViewController.swift in Sources */,
+				8BF94DF7210BFCF2001E839F /* GroupsVC.swift in Sources */,
 				8BB0B0F12113D3850061F143 /* LoginVC.swift in Sources */,
 				8BB0B0F72113DD160061F143 /* AuthService.swift in Sources */,
 				8BF94DF3210BFCF2001E839F /* AppDelegate.swift in Sources */,
 				8BB0B0F52113D94F0061F143 /* ShadowView.swift in Sources */,
-				8BF94DF5210BFCF2001E839F /* FirstViewController.swift in Sources */,
+				8BF94DF5210BFCF2001E839F /* FeedVC.swift in Sources */,
 				8BB0B0F32113D3D60061F143 /* InsetTextField.swift in Sources */,
 				8B363ACD21126D2800AAD59F /* DataService.swift in Sources */,
 			);
