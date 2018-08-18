@@ -15,6 +15,8 @@
 		8B103D1D211A1A5A00A4A7B7 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B103D1C211A1A5A00A4A7B7 /* FeedCell.swift */; };
 		8B363ACD21126D2800AAD59F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B363ACC21126D2800AAD59F /* DataService.swift */; };
 		8B3DA7D021279BD000A51E74 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DA7CF21279BD000A51E74 /* Group.swift */; };
+		8B3DA7D22127A37900A51E74 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DA7D12127A37900A51E74 /* GroupFeedCell.swift */; };
+		8B3DA7D42127A3F400A51E74 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DA7D32127A3F400A51E74 /* GroupFeedVC.swift */; };
 		8B41A5E9211F61C80071EFB6 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41A5E8211F61C80071EFB6 /* CreateGroupsVC.swift */; };
 		8B41A5EB211F677E0071EFB6 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B41A5EA211F677E0071EFB6 /* UserCell.swift */; };
 		8B6C54DA212667A500776D49 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C54D9212667A500776D49 /* GroupCell.swift */; };
@@ -42,6 +44,8 @@
 		8B103D1C211A1A5A00A4A7B7 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		8B363ACC21126D2800AAD59F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		8B3DA7CF21279BD000A51E74 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		8B3DA7D12127A37900A51E74 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		8B3DA7D32127A3F400A51E74 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		8B41A5E8211F61C80071EFB6 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		8B41A5EA211F677E0071EFB6 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		8B6C54D9212667A500776D49 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
@@ -128,6 +132,7 @@
 				8B103D162119FFF000A4A7B7 /* MeVC.swift */,
 				8B103D18211A054300A4A7B7 /* CreatePostVC.swift */,
 				8B41A5E8211F61C80071EFB6 /* CreateGroupsVC.swift */,
+				8B3DA7D32127A3F400A51E74 /* GroupFeedVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 				8B103D1C211A1A5A00A4A7B7 /* FeedCell.swift */,
 				8B41A5EA211F677E0071EFB6 /* UserCell.swift */,
 				8B6C54D9212667A500776D49 /* GroupCell.swift */,
+				8B3DA7D12127A37900A51E74 /* GroupFeedCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 				8B6C54DA212667A500776D49 /* GroupCell.swift in Sources */,
 				8BB0B0EF2113D34C0061F143 /* AuthVC.swift in Sources */,
 				8BF94DF7210BFCF2001E839F /* GroupsVC.swift in Sources */,
+				8B3DA7D42127A3F400A51E74 /* GroupFeedVC.swift in Sources */,
+				8B3DA7D22127A37900A51E74 /* GroupFeedCell.swift in Sources */,
 				8BB0B0F12113D3850061F143 /* LoginVC.swift in Sources */,
 				8BB0B0F72113DD160061F143 /* AuthService.swift in Sources */,
 				8B41A5E9211F61C80071EFB6 /* CreateGroupsVC.swift in Sources */,
